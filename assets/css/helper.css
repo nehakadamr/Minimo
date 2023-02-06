@@ -1,0 +1,79 @@
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #010101;
+}
+.navbar ul{
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 20px;
+    font-size: 14px;
+}
+.navbar li a:link, .navbar li a:visited{
+    display: inline-block;
+    text-decoration: none;
+    color: #626262;
+    font-size: 14px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    height: 51px;
+    line-height: 51px;
+}
+.logo{
+    display: inline-block;
+    height: 51px;
+    margin-top: 13px;
+}
+ul ol{
+    list-style: none;
+}
+
+.row,
+.row::after,
+.row::before{
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+[class^="col-"]{
+    float: left;
+    padding: 0 15px;
+}
+.col-1{
+    width: calc(100% * 1 / 12);
+}
+.col-2{
+    width: calc(100% * 2 / 12);
+}
+.col-3{
+    width: calc(100% * 3 / 12);
+}
+.col-4{
+    width: calc(100% * 4 / 12);
+}
+.col-5{
+    width: calc(100% * 5 / 12);
+}
+.col-6{
+    width: calc(100% * 6 / 12);
+}
+.col-7{
+    width: calc(100% * 7 / 12);
+}
+.col-8{
+    width: calc(100% * 8 / 12);
+}
+.col-9{
+    width: calc(100% * 9 / 12);
+}
+.col-10{
+    width: calc(100% * 10 / 12);
+}
